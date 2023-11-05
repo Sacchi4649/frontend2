@@ -1,8 +1,9 @@
 import { useEffect } from "react";
-import useUsers from "./useUsers";
-import TableUsers from "./TableUsers";
-import ModalUsers from "./ModalUsers";
 import Filter from "./Filter";
+import ModalUsers from "./ModalUsers";
+import TableUsers from "./TableUsers";
+import UsersHome from "./UsersHome";
+import useUsers from "./useProfile";
 
 const UsersView = () => {
   const {
@@ -33,6 +34,7 @@ const UsersView = () => {
 
   return (
     <div>
+      <UsersHome/>
       <Filter
         layout={layoutFilter}
         form={formFilter}

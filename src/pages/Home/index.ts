@@ -2,13 +2,13 @@ import loadable from "@loadable/component";
 
 import { HOME_PATH } from "../../url";
 
-const HomeView = loadable(() =>
-  import(/* webpackChunkName: "home-view" */ "./Home")
+const homeView = loadable(() =>
+  import(/* webpackChunkName: "home-view" */ "./homeView")
 );
 
 export default {
   path: HOME_PATH,
-  component: HomeView,
+  component: homeView,
   exact: true,
   auth: true,
 };

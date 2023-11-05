@@ -5,13 +5,13 @@ import {
   Input,
   Modal,
   Row,
+  Select,
   Skeleton,
   Typography,
-  Select,
 } from "antd";
-import { ROLE } from "../../constants";
-import Dropdown from "../../components/Dropdown";
 import { DOSEN_URL, MAHASISWA_URL } from "../../api-url";
+import Dropdown from "../../components/Dropdown";
+import { ROLE } from "../../constants";
 
 const { Title } = Typography;
 const { Option } = Select;

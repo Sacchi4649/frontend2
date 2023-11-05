@@ -25,7 +25,7 @@ body {
   }
 
   .sider-background{
-    background: #537FE7 !important;
+    background: #19376D !important;
   }
 
   .container-content{
@@ -33,7 +33,7 @@ body {
     padding: 1rem;
     border-radius: 0.2rem;
     margin-bottom: 1rem;
-  }
+  }  
 
   .m-1{
     margin: 0.1rem;

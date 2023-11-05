@@ -7,13 +7,13 @@ export const MenuList = [
   {
     title: "Home",
     path: HOME_PATH,
-    icon: HomeOutlined,
+    icon: UserOutlined,
     childs: [],
   },
   {
     title: "Users",
     path: USERS_PATH,
-    icon: UserOutlined,
+    icon: HomeOutlined,
     childs: [],
   },
   

@@ -1,3 +1,25 @@
-.container-welcome{
-  font-size: 23px;
+.container-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+.avatar-space {
+  z-index: 1;
+  padding: 0.5rem;
+}
+
+.container-Name1 {
+  width: 100w;
+  position: absolute;
+  top: 8%;
+  left: 19%;
+  z-index: 1;
+}
+.container-Name2 {
+  width: 20vw;
+  position: absolute;
+  top: 14%;
+  left: 19%;
+  z-index: 1;
 }

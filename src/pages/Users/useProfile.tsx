@@ -1,15 +1,15 @@
-import { useState } from "react";
-import { Button, Form, Tooltip, Typography } from "antd";
-import { getKeyData } from "../../utils/getKeyData";
 import {
   CheckCircleOutlined,
   CloseCircleOutlined,
   EditOutlined,
 } from "@ant-design/icons";
-import Message from "../../utils/message";
-import { fetcher } from "../../hooks/useAxios";
+import { Button, Form, Tooltip, Typography } from "antd";
+import { useState } from "react";
 import { USER_URL } from "../../api-url";
 import { ROLE } from "../../constants";
+import { fetcher } from "../../hooks/useAxios";
+import { getKeyData } from "../../utils/getKeyData";
+import Message from "../../utils/message";
 
 const { Text } = Typography;
 

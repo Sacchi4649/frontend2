@@ -12,10 +12,11 @@
   height: 100vh;
   position: absolute;
   left: 0;
-  font-size: 250%;
-  padding: 60px;
-  color:white
+  font-size: 2em;
+  padding: 1em;
+  color: white;
 }
+
 
 .kotak-biru p {
   font-size: 80%;

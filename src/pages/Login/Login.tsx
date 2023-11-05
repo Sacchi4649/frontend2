@@ -1,6 +1,6 @@
-import { Form, Input, Button,  Checkbox } from "antd";
-import './loginStyle.css'
-import { LockOutlined,  UserOutlined } from "@ant-design/icons";
+import { LockOutlined, UserOutlined } from "@ant-design/icons";
+import { Button, Checkbox, Form, Input } from "antd";
+import './loginStyle.css';
 import useLogin from "./useLogin";
 
 const Login = () => {
