@@ -14,6 +14,7 @@ const Login = () => {
         </div>
 
         <div className="kotak-putih">
+
             <Form
                 name="normal_login"
                 className="login-form"
@@ -60,7 +61,7 @@ const Login = () => {
                 </Form.Item>
 
                 <Form.Item>
-                    <Button type="primary" htmlType="submit" className="login-form-button">
+                    <Button type="primary" htmlType="submit" className="login-form-button bg-[#19376D]">
                         LOGIN
                     </Button>
                 </Form.Item>

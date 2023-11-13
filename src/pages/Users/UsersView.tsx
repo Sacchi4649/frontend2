@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import Filter from "./Filter";
 import ModalUsers from "./ModalUsers";
 import TableUsers from "./TableUsers";
-import UsersHome from "./UsersHome";
 import useUsers from "./useProfile";
+import UsersHome from "./usersHome";
 
 const UsersView = () => {
   const {

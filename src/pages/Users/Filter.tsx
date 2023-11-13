@@ -15,7 +15,7 @@ const Filter = ({ form, layout, handleFilter }: any) => {
         </Row>
         <Row>
           <Col lg={4} md={6} xs={24}>
-            <Button
+            <Button className='bg-[#19376D]'
               htmlType="submit"
               type="primary"
               shape="default"

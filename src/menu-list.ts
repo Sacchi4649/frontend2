@@ -5,13 +5,13 @@ import { HomeOutlined, UserOutlined } from "@ant-design/icons";
 
 export const MenuList = [
   {
-    title: "Home",
+    title: "User",
     path: HOME_PATH,
     icon: UserOutlined,
     childs: [],
   },
   {
-    title: "Users",
+    title: "Home",
     path: USERS_PATH,
     icon: HomeOutlined,
     childs: [],

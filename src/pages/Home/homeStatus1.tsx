@@ -39,17 +39,17 @@ const dataSource = [
     status: 0,
   },
   {
-    key: '3',
+    key: '4',
     name: 'KELAS',
     status: 0,
   },
   {
-    key: '3',
+    key: '5',
     name: 'POSISI',
     status: getLocalStorage(LOCALSTORAGE_KEY.ROLE),
   },
   {
-    key: '3',
+    key: '6',
     name: 'STATUS',
     status: 0,
   },
@@ -58,28 +58,18 @@ const dataSource = [
 
 function HomeStatus() {
   return (
-    <main className="flex">
       <Layout className="content-layout">
-        <div className='bg-white mb-4 p-5 flex space-x-4 items-center w-1/2'>
+        <div className='bg-white p-5 flex items-center w-11/12'>
           <Image
             width={300}
             src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
           />
 
           <div className='font-bold pl-10'>
-            <Table className="text-3xl font-bold pl-5" columns={columns} dataSource={dataSource} />
+            <Table className="text-6x1 font-bold pl-6" columns={columns} dataSource={dataSource} />
           </div>
         </div>
       </Layout>
-      
-      {/* <Layout className="content-layout">
-        <div className='bg-white mb-4 p-5 flex space-x-4 items-center w-1/3'>
-          <div className='font-bold pl-10'>
-            <Table className="text-3xl font-bold pl-5" columns={columns} dataSource={dataSource} />
-          </div>
-        </div>
-      </Layout> */}
-    </main>
   );
 }
 

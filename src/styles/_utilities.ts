@@ -57,7 +57,7 @@ body {
   },
 
   .ant-table-thead > tr > th {
-    background: #537FE7 !important;
+    background: #19376D !important;
     color: #fff !important;
   }
 

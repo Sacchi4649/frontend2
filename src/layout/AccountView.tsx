@@ -1,11 +1,11 @@
+import { LogoutOutlined, UserOutlined } from "@ant-design/icons";
+import { Avatar, Button, Popover } from "antd";
 import { useState } from "react";
-import { Avatar, Popover, Button } from "antd";
-import { UserOutlined, LogoutOutlined } from "@ant-design/icons";
-import localStorageHooks from "../utils/localStorageHooks";
 import LoadingDefault from "../components/LoadingDefault";
-import Message from "../utils/message";
 import { LOCALSTORAGE_KEY } from "../constants";
 import { LOGIN_PATH } from "../url";
+import localStorageHooks from "../utils/localStorageHooks";
+import Message from "../utils/message";
 
 const AccountView = () => {
   const { getLocalStorage, removeLocalStorage } = localStorageHooks();
@@ -30,7 +30,7 @@ const AccountView = () => {
   };
 
   const contentPopover = (
-    <Button type="primary" icon={<LogoutOutlined />} onClick={onLogout}>
+    <Button className="bg-[#19376D]" type="primary" icon={<LogoutOutlined />} onClick={onLogout}>
       Logout
     </Button>
   );

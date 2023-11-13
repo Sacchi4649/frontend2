@@ -20,10 +20,7 @@ const LayoutView = ({ children }: any) => {
         collapsed={collapsed}
         breakpoint="lg"
       >
-        <div className="sider-background logo">
-          <img src="/logo.png" alt="logo" />
-          
-        </div>
+
         <ListMenu />
       </Sider>
       <Layout className="site-layout">

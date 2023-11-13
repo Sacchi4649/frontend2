@@ -48,7 +48,7 @@ const ModalLocations = ({
     <div className="container-content">
       <Row>
         <Col lg={4} md={6} xs={24}>
-          <Button
+          <Button className="bg-[#19376D]"
             type="primary"
             size="large"
             block
@@ -214,11 +214,11 @@ const ModalLocations = ({
               }}
             >
               <Col {...columnSizeButton} className="u-px1">
-                <Button htmlType="submit" type="primary" size="large" block>
+                <Button className="bg-[#19376D]" htmlType="submit" type="primary" size="large" block>
                   SIMPAN
                 </Button>
               </Col>
-              <Col {...columnSizeButton} className="u-px1">
+              <Col {...columnSizeButton} className="u-px1 ">
                 <Button
                   htmlType="button"
                   size="large"
