@@ -1,6 +1,6 @@
 import { Layout, Radio, Table } from "antd";
-import { LOCALSTORAGE_KEY } from "../../constants";
-import localStorageHooks from "../../utils/localStorageHooks";
+import { LOCALSTORAGE_KEY } from "../../../constants";
+import localStorageHooks from "../../../utils/localStorageHooks";
 import "./homeStyle.css";
 
 interface dataSource {

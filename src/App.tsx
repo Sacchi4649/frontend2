@@ -3,14 +3,14 @@ import { BrowserRouter } from "react-router-dom";
 import { AppProvider } from "./context/AppContext";
 import Router from "./routes";
 
-import AbsenSiswa from "./pages/AbsenSiswa";
-import DETAIL_PATH from "./pages/DetailUser";
-import HomeSiswa from "./pages/HomeSiswa";
+import AbsenSiswa from "./pages/Mahasiswa/AbsenSiswa";
+import DETAIL_PATH from "./pages/Admin/DetailUser";
+import HomeSiswa from "./pages/Mahasiswa/Profile";
 import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
-import ProfileAdmin from "./pages/ProfileAdmin";
-import Users from "./pages/Users";
-import UsersSiswa from "./pages/UsersSiswa";
+import ProfileAdmin from "./pages/Admin/ProfileAdmin";
+import Users from "./pages/Admin/Users";
+import UsersSiswa from "./pages/Mahasiswa/UsersSiswa";
 
 const listRoutes = [{ ...DETAIL_PATH },{ ...HomeSiswa },{ ...AbsenSiswa }, { ...Users }, { ...UsersSiswa }, { ...Login }, { ...NotFound }, { ... ProfileAdmin }]; 
 

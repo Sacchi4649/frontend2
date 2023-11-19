@@ -9,9 +9,9 @@ import {
   Skeleton,
   Typography,
 } from "antd";
-import { DOSEN_URL, MAHASISWA_URL } from "../../api-url";
-import Dropdown from "../../components/Dropdown";
-import { ROLE } from "../../constants";
+import { DOSEN_URL, MAHASISWA_URL } from "../../../api-url";
+import Dropdown from "../../../components/Dropdown";
+import { ROLE } from "../../../constants";
 
 const { Title } = Typography;
 const { Option } = Select;

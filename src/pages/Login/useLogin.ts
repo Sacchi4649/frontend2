@@ -2,7 +2,7 @@ import { useHistory } from "react-router-dom";
 import { LOGIN_URL } from "../../api-url";
 import { LOCALSTORAGE_KEY } from "../../constants";
 import { fetcher } from "../../hooks/useAxios";
-import { USERS_PATH, USERSPROFILE_PATH_SISWA } from "../../url";
+import { USERS_PATH, PROFILE_MAHASISWA_PATH } from "../../url";
 import localStorageHooks from "../../utils/localStorageHooks";
 import Message from "../../utils/message";
 
@@ -29,7 +29,7 @@ const useLogin = () => {
       successMessage("Login berhasil!");
 
       if (role === "mahasiswa") {
-        push(USERSPROFILE_PATH_SISWA);
+        push(PROFILE_MAHASISWA_PATH);
       } else if (role === "admin") {
         push(USERS_PATH);
       } else {

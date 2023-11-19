@@ -1,13 +1,13 @@
 import loadable from "@loadable/component";
 
-import { ABSEN_PATH_SISWA } from "../../url";
+import { DETAIL_PATH } from "../../../url";
 
 const homeView = loadable(() =>
   import(/* webpackChunkName: "home-view" */ "./homeView")
 );
 
 export default {
-  path: ABSEN_PATH_SISWA,
+  path: DETAIL_PATH,
   component: homeView,
   exact: true,
   auth: true,

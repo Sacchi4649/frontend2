@@ -1,7 +1,7 @@
 import { UserOutlined } from '@ant-design/icons';
 import { Avatar, Image, Layout, Table } from "antd";
-import { LOCALSTORAGE_KEY } from "../../constants";
-import localStorageHooks from "../../utils/localStorageHooks";
+import { LOCALSTORAGE_KEY } from "../../../constants";
+import localStorageHooks from "../../../utils/localStorageHooks";
 import "./homeStyle.css";
 
 interface dataSource {
@@ -31,28 +31,13 @@ const dataSource = [
   },
   {
     key: '2',
-    name: 'NIM',
-    status: 0,
-  },
-  {
-    key: '3',
-    name: 'SEMESTER',
-    status: 0,
-  },
-  {
-    key: '4',
-    name: 'KELAS',
+    name: 'NIP',
     status: 0,
   },
   {
     key: '5',
     name: 'POSISI',
-    status: 0,
-  },
-  {
-    key: '6',
-    name: 'STATUS',
-    status: 0,
+    status: getLocalStorage(LOCALSTORAGE_KEY.ROLE),
   },
 ];
 

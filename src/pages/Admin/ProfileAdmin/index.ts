@@ -1,6 +1,6 @@
 import loadable from "@loadable/component";
 
-import { USERSPROFILE_PATH_ADMIN } from "../../url";
+import { USERSPROFILE_PATH_ADMIN } from "../../../url";
 
 const homeView = loadable(() =>
   import(/* webpackChunkName: "home-view" */ "./homeView")
