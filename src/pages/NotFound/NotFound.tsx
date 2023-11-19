@@ -1,6 +1,6 @@
 import { Result } from "antd";
 import { Link } from "react-router-dom";
-import { HOME_PATH } from "../../url";
+import { USERSPROFILE_PATH_ADMIN } from "../../url";
 
 const NotFound = () => {
   return (
@@ -8,7 +8,7 @@ const NotFound = () => {
       status="404"
       title="404"
       subTitle="Sorry, the page you visited does not exist."
-      extra={<Link to={HOME_PATH}>Back Home</Link>}
+      extra={<Link to={USERSPROFILE_PATH_ADMIN}>Back Home</Link>}
     />
   );
 };

@@ -34,12 +34,8 @@ const UsersView = () => {
 
   return (
     <div>
+      <div className="text-2xl font-bold pb-5"><p>DASHBOARD ADMIN</p></div>
       <UsersHome/>
-      <Filter
-        layout={layoutFilter}
-        form={formFilter}
-        handleFilter={handleFilter}
-      />
       <ModalUsers
         form={formModal}
         isEdited={isEditModal}
@@ -51,6 +47,11 @@ const UsersView = () => {
         locationById={userById}
         role={role}
         setRole={setRole}
+      />
+        <Filter
+        layout={layoutFilter}
+        form={formFilter}
+        handleFilter={handleFilter}
       />
       <TableUsers
         columns={columns}

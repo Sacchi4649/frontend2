@@ -1,12 +1,12 @@
+import { Spin } from "antd";
 import { useEffect } from "react";
-import { Switch, Redirect, useLocation } from "react-router-dom";
+import { Redirect, Switch, useLocation } from "react-router-dom";
+import { useAppContext } from "../context/AppContext";
+import MenuList from "../menu-list";
 import { utilities } from "../styles/_utilities";
 import { LOGIN_PATH, NOT_FOUND_PATH } from "../url";
 import PrivateRoute from "./PrivateRoute";
 import PublicRoute from "./PublicRoute";
-import { useAppContext } from "../context/AppContext";
-import { Spin } from "antd";
-import MenuList from "../menu-list";
 const Router = ({ listRoutes }: any) => {
   const { globalState, setState }: any = useAppContext();
   const location = useLocation();

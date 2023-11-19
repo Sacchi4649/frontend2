@@ -1,4 +1,4 @@
-import { HOME_PATH, USERS_PATH } from "./url";
+import { USERS_PATH, USERSPROFILE_PATH_ADMIN } from "./url";
 
 
 import { HomeOutlined, UserOutlined } from "@ant-design/icons";
@@ -6,7 +6,7 @@ import { HomeOutlined, UserOutlined } from "@ant-design/icons";
 export const MenuList = [
   {
     title: "User",
-    path: HOME_PATH,
+    path: USERSPROFILE_PATH_ADMIN,
     icon: UserOutlined,
     childs: [],
   },

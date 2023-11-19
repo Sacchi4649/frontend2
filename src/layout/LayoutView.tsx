@@ -23,9 +23,9 @@ const LayoutView = ({ children }: any) => {
 
         <ListMenu />
       </Sider>
-      <Layout className="site-layout">
+      <Layout className="site-layot bg-zinc-300">
         <Header
-          className="site-layout-background sider-background header"
+          className="site-layout-background sider-background header bg-slate-#19376D"
           style={{ padding: 0 }}
         >
           {React.createElement(

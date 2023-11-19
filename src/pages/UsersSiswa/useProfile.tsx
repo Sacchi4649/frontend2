@@ -1,17 +1,13 @@
 import {
-  CheckCircleOutlined,
-  CloseCircleOutlined,
   EditOutlined,
 } from "@ant-design/icons";
-import { Button, Form, Tooltip, Typography } from "antd";
+import { Button, Form, Tooltip } from "antd";
 import { useState } from "react";
 import { USER_URL } from "../../api-url";
 import { ROLE } from "../../constants";
 import { fetcher } from "../../hooks/useAxios";
 import { getKeyData } from "../../utils/getKeyData";
 import Message from "../../utils/message";
-
-const { Text } = Typography;
 
 const useUsers = () => {
   const [formFilter] = Form.useForm();
@@ -50,31 +46,27 @@ const useUsers = () => {
       key: "key",
     },
     {
-      title: "Username",
+      title: "MATAKULIAH",
       dataIndex: "username",
       key: "username",
     },
     {
-      title: "Role",
+      title: "JAM MASUK",
       dataIndex: "role",
       key: "role",
     },
     {
-      title: "Active",
-      dataIndex: "isActive",
-      key: "isActive",
-      render: (isActive: boolean) => (
-        <Text>
-          {isActive ? (
-            <CheckCircleOutlined className="u-color-success u-font-size-2" />
-          ) : (
-            <CloseCircleOutlined className="u-color-danger u-font-size-2" />
-          )}
-        </Text>
-      ),
+      title: "JAM SELESAI",
+      dataIndex: "role",
+      key: "role",
     },
     {
-      title: "Action",
+      title: "KETERANGAN",
+      dataIndex: "role",
+      key: "role",
+    },
+    {
+      title: "ABESNSI",
       align: "center",
       render: (_: any, reqord: any) => (
         <Tooltip className="bg-[#19376D]" title="Edit" color="grey" placement="right">
@@ -147,7 +139,7 @@ const useUsers = () => {
   };
 
   const handleSave = async (valuesForm: any) => {
-    setIsLoadingModal(true); 
+    setIsLoadingModal(true); //memberikan loading
     const { role, username, password, isActive } = valuesForm;
 
     let request: any = {

@@ -14,7 +14,11 @@ const Login = () => {
         </div>
 
         <div className="kotak-putih">
-
+        <div className="relative bottom-8" style={{ transform: 'scale(1.2)' }}>
+        <div className="relative top-20 left-[35%] z-10">
+          <img src="logo2.png" alt="Deskripsi Gambar" />
+        </div>
+        <div className="kotak-login relative ">
             <Form
                 name="normal_login"
                 className="login-form"
@@ -55,9 +59,6 @@ const Login = () => {
                     <Form.Item name="remember" valuePropName="checked" noStyle>
                         <Checkbox>Remember me</Checkbox>
                     </Form.Item>
-                    <a className="login-form-forgot" href="">
-                        Forgot password
-                    </a>
                 </Form.Item>
 
                 <Form.Item>
@@ -66,6 +67,8 @@ const Login = () => {
                     </Button>
                 </Form.Item>
             </Form>
+        </div>
+        </div>
         </div>
     </div>
 );

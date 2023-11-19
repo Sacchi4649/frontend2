@@ -1,8 +1,6 @@
 import { useEffect } from "react";
-import Home from "./Home";
+import HomeSiswa from "./Home";
 import HomeStatus1 from "./homeStatus1";
-import HomeStatus2 from "./homeStatus2";
-import HomeStatus3 from "./homeStatus3";
 
 const homeView = () => {
   
@@ -11,12 +9,11 @@ const homeView = () => {
   
     return (
       <div>
-        <Home/>
-        <main className="flex">
+        <div className="text-2xl font-bold pb-5"><p>PROFILE SISWA</p></div>
+        <HomeSiswa/>
+        <main className="flex pt-3">
         <HomeStatus1/>
-        <HomeStatus2/>
         </main>
-        <HomeStatus3/>
       </div>
     );
   };

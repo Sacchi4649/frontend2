@@ -14,20 +14,6 @@ export const LayoutStyle: any = css`
     }
   }
 
-  .logo {
-    height: 64px;
-    img {
-      width: auto;
-      max-height: 78px;
-      margin: 8px;
-    }
-    color: #fff;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .site-layout-background {
     padding: 0px;
 
@@ -74,7 +60,7 @@ export const LayoutStyle: any = css`
   }
 
   .menu {
-    height: 96%;
+    height: 100%;
     border-right: 0;
   }
 `;

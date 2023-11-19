@@ -36,7 +36,10 @@ const props: UploadProps = {
 function HomeStatus2() {
   return (
       <Layout className="content-layout">
-        <div className='bg-white mb-4 p-5 flex items-center '>
+        <span className='text-1xl font-bold pt-2 flex justify-center'>
+        <p> SURAT KETERANGAN </p>
+      </span>
+        <div className='bg-white mb-4 p-5 flex justify-center'>
             <Dragger {...props}>
               <p className="ant-upload-drag-icon">
 
