@@ -50,14 +50,19 @@ const useUsers = () => {
       key: "key",
     },
     {
-      title: "Username",
+      title: "USER NAME",
       dataIndex: "username",
       key: "username",
     },
     {
-      title: "Role",
+      title: "POSISI",
       dataIndex: "role",
       key: "role",
+    },
+    {
+      title: "NOMOR INDUK",
+      dataIndex: "0",
+      key: "0",
     },
     {
       title: "Active",
