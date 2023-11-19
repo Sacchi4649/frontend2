@@ -11,8 +11,19 @@ import NotFound from "./pages/NotFound";
 import ProfileAdmin from "./pages/Admin/ProfileAdmin";
 import Users from "./pages/Admin/Users";
 import UsersSiswa from "./pages/Mahasiswa/UsersSiswa";
+import JadwalMahasiswa from "./pages/Mahasiswa/Jadwal";
 
-const listRoutes = [{ ...DETAIL_PATH },{ ...HomeSiswa },{ ...AbsenSiswa }, { ...Users }, { ...UsersSiswa }, { ...Login }, { ...NotFound }, { ... ProfileAdmin }]; 
+const listRoutes = [
+  { ...DETAIL_PATH },
+  { ...HomeSiswa },
+  { ...AbsenSiswa },
+  { ...Users },
+  { ...UsersSiswa },
+  { ...Login },
+  { ...NotFound },
+  { ...ProfileAdmin },
+  { ...JadwalMahasiswa },
+];
 
 const App = () => {
   return (

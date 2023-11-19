@@ -1,13 +1,26 @@
-import { USERS_PATH, USERSPROFILE_PATH_ADMIN } from "./url";
+import {
+  JADWAL_MAHASISWA_PATH,
+  PROFILE_MAHASISWA_PATH,
+  USERS_PATH,
+} from "./url";
 
-
-import { HomeOutlined, UserOutlined } from "@ant-design/icons";
+import {
+  HomeOutlined,
+  UserOutlined,
+  ScheduleOutlined,
+} from "@ant-design/icons";
 
 export const MenuList = [
   {
-    title: "User",
-    path: USERSPROFILE_PATH_ADMIN,
+    title: "Profile",
+    path: PROFILE_MAHASISWA_PATH,
     icon: UserOutlined,
+    childs: [],
+  },
+  {
+    title: "Jadwal",
+    path: JADWAL_MAHASISWA_PATH,
+    icon: ScheduleOutlined,
     childs: [],
   },
   {
@@ -16,7 +29,6 @@ export const MenuList = [
     icon: HomeOutlined,
     childs: [],
   },
-  
 ];
 
 export default MenuList;
