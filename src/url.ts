@@ -1,6 +1,8 @@
 // PUBLIC
 export const LOGIN_PATH = "/login";
 export const REGISTER_PATH = "/register";
+
+
 // PRIVATE
 
 export const DETAIL_PATH = "/detailusers";
@@ -10,6 +12,7 @@ export const USERSPROFILE_PATH = "/profile";
 export const USERSPROFILE_PATH_ADMIN = "/profile-admin";
 export const USERS_PATH_SISWA = "/user-siswa";
 export const ABSEN_PATH_SISWA = "/absen-siswa";
+export const WELCOME_PATH = "/";
 
 // MAHASISWA
 export const PROFILE_MAHASISWA_PATH = "/profile-mahasiswa";

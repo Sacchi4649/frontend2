@@ -52,7 +52,7 @@ function HomeStatusSiswa() {
       <Layout className="content-layout">
         <div className='bg-white p-5 flex items-end'>
           <div className='font-bold pl-10 '>
-            <Table className="text-6x1 font-bold pl-6" columns={columns} dataSource={dataSource} />
+            <Table className="text-6x1 font-bold pl-6" columns={columns} dataSource={dataSource} pagination={false} />
           </div>
         </div>
       </Layout>

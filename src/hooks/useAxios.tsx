@@ -38,7 +38,7 @@ const axiosInterceptor = () => {
         errorMessage(error);
         window.location.href = LOGIN_PATH;
       }
-      return error;
+      return Promise.reject(error);
     }
   );
 };

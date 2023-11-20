@@ -3,15 +3,16 @@ import { BrowserRouter } from "react-router-dom";
 import { AppProvider } from "./context/AppContext";
 import Router from "./routes";
 
-import AbsenSiswa from "./pages/Mahasiswa/AbsenSiswa";
 import DETAIL_PATH from "./pages/Admin/DetailUser";
-import HomeSiswa from "./pages/Mahasiswa/Profile";
-import Login from "./pages/Login";
-import NotFound from "./pages/NotFound";
 import ProfileAdmin from "./pages/Admin/ProfileAdmin";
 import Users from "./pages/Admin/Users";
-import UsersSiswa from "./pages/Mahasiswa/UsersSiswa";
+import Login from "./pages/Login";
+import AbsenSiswa from "./pages/Mahasiswa/AbsenSiswa";
 import JadwalMahasiswa from "./pages/Mahasiswa/Jadwal";
+import HomeSiswa from "./pages/Mahasiswa/Profile";
+import UsersSiswa from "./pages/Mahasiswa/UsersSiswa";
+import NotFound from "./pages/NotFound";
+import Welcome from "./pages/Welcome";
 
 const listRoutes = [
   { ...DETAIL_PATH },
@@ -23,6 +24,7 @@ const listRoutes = [
   { ...NotFound },
   { ...ProfileAdmin },
   { ...JadwalMahasiswa },
+  { ...Welcome },
 ];
 
 const App = () => {

@@ -20,7 +20,6 @@ const LayoutView = ({ children }: any) => {
         collapsed={collapsed}
         breakpoint="lg"
       >
-
         <ListMenu />
       </Sider>
       <Layout className="site-layot bg-zinc-300">
