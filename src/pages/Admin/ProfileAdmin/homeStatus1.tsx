@@ -30,11 +30,6 @@ const dataSource = [
     status: getLocalStorage(LOCALSTORAGE_KEY.USERNAME),
   },
   {
-    key: '2',
-    name: 'NIP',
-    status: 0,
-  },
-  {
     key: '5',
     name: 'POSISI',
     status: getLocalStorage(LOCALSTORAGE_KEY.ROLE),

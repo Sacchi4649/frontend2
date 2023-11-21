@@ -1,12 +1,11 @@
+import { Form, Image, Input, Layout, Skeleton } from "antd";
 import { useEffect, useState } from "react";
-import { Layout, Image, Skeleton, Form, Input } from "antd";
-import { fetcher } from "../../../hooks/useAxios";
 import { PROFILE_MAHASISWA_URL } from "../../../api-url";
-import useLocalStorage from "../../../utils/localStorageHooks";
 import { LOCALSTORAGE_KEY } from "../../../constants";
-import "./homeStyle.css";
+import { fetcher } from "../../../hooks/useAxios";
+import useLocalStorage from "../../../utils/localStorageHooks";
 import useMessage from "../../../utils/message";
-import { capitalEachWord } from "../../../utils/word";
+import "./homeStyle.css";
 
 const layout = {
   labelCol: { span: 12 },
@@ -80,7 +79,7 @@ const ProfileMahasiswa = () => {
                       <Input placeholder="semester" readOnly />
                     </Form.Item>
                     <Form.Item label="STATUS" name="status_sp">
-                      <Input placeholder="status_sp" readOnly />
+                      <Input placeholder="status sp" readOnly />
                     </Form.Item>
                   </Form>
                 </div>

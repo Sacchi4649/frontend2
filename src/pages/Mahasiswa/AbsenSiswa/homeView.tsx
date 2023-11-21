@@ -11,7 +11,7 @@ const homeView = () => {
   
     return (
       <div>
-        <div className="text-2xl font-bold pb-5"><p>ABSENSI SISWA</p></div>
+        <div className="text-2xl font-bold pb-5"><p>KOREKSI ABSEN</p></div>
         <div className="grid grid-flow-col gap-3">
           <div className="row-span-4 ..."><MkDosen/></div>
           <div className="col-span-3 ..."><AbsenSiswa/></div>

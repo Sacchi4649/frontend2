@@ -15,10 +15,10 @@ const mkdosen = ({ }: any) => {
     <div className='flex flex-col items-center space-y-4 pt-4 h-full'>
     <Avatar shape="square" size={150} icon={<UserOutlined />} />
       <span className='text-2xl font-bold pt-2 flex justify-center'>
-        <p> HARIS SUIII </p>
+        <p> HARIS </p>
       </span>
       <span className='text-2xl font-bold pb-2 flex justify-center'>
-        <p> MAHASISWA </p>
+        <p> DOSEN </p>
       </span>
     </div>
   </Layout>

@@ -3,16 +3,15 @@ import { LOGIN_URL } from "../../api-url";
 import { LOCALSTORAGE_KEY } from "../../constants";
 import { fetcher } from "../../hooks/useAxios";
 import { useAppContext } from "../../context/AppContext";
-import { USERS_PATH, PROFILE_MAHASISWA_PATH, WELCOME_PATH } from "../../url";
+import { WELCOME_PATH } from "../../url";
 import localStorageHooks from "../../utils/localStorageHooks";
 import Message from "../../utils/message";
-import { useState } from "react";
 
 const useLogin = () => {
   const { errorMessage, successMessage } = Message();
   const { setLocalStorage } = localStorageHooks();
   const { push } = useHistory();
-  const { globalState, setState }: any = useAppContext();
+  const { setState }: any = useAppContext();
   const handleLogin = async (values: any) => {
     try {
       const request = {
